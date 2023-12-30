@@ -69,17 +69,15 @@ p {
   }
 
  
-  #movableSection {
-    overflow: hidden;
-}
+
 
 .movable-background {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background-color: var(--colornegro); /* Añadido para dar un color de fondo */
+    background-color: var(--colornegro); 
     overflow: hidden;
-    z-index: 1; /* Añadido para establecer la posición z */
+    z-index: 1; 
 }
 
 .movable-image {
@@ -88,8 +86,8 @@ p {
     height: 200px;
     background-size: cover;
     background-position: center center;
-    opacity: 0.7; /* Puedes ajustar la opacidad según tu preferencia */
-    z-index: 2; /* Añadido para establecer la posición z */
+    opacity: 1; 
+    z-index: 2; 
 }
 
 .overlay {
@@ -101,10 +99,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
     text-align: center;
-    font-size: 24px;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 3; /* Añadido para establecer la posición z */
+    z-index: 3; 
 }
  

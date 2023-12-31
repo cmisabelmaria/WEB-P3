@@ -118,3 +118,21 @@ p {
     position: relative;
     animation: scroll 20s linear infinite;
 }
+
+.about {
+    height: 300vh;
+}
+
+.about-title {
+    height: 100vh;
+}
+
+.about-pages > div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+

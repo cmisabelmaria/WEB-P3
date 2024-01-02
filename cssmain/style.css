@@ -39,7 +39,7 @@ section {
 
 h1 {
     font-size: var(--tamanoTitulo1);
-
+    letter-spacing: -5px;
 }
 
 h2 {
@@ -61,9 +61,10 @@ p {
 
 h5{
 font-size: 15em;
+letter-spacing: -10px;
 }
 
-#hola{
+.hola{
     height: 50vh;
 }
 
@@ -84,7 +85,14 @@ font-size: 15em;
     z-index: 10;
   }
 
-  .btn {
+  .btn-bd-dark {
     --bs-btn-hover-color: #f1f1f1;
   }
- 
+
+  .dream > h5{
+    letter-spacing: -20px;
+  }
+  
+  .hr {
+    color: #F96231 !important;
+  }

@@ -136,3 +136,8 @@ p {
 
 }
 
+body > section.about > div.about-title {
+    background-attachment: fixed;
+    background-color: red;
+}
+

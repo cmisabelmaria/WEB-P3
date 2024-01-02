@@ -1,0 +1,68 @@
+:root {
+    --tamanoTitulo1: 8rem;
+    --tamanoTitulo2: calc(var(--tamanoTitulo1) - 2rem);
+    --tamanoTitulo3: calc(var(--tamanoTitulo2) - 1.5rem);
+    --tamanoTitulo4: calc(var(--tamanoTitulo3) - 2rem);
+    --tamanop: calc(var(--tamanoTitulo4) - 1rem);
+    --colornegro: #1D1D1B;
+    --colorblanco: #f1f1f1;
+    --colorazul: #000CEA;
+    --colornaranja: #F96231;
+    --Applegaramond: "AppleGaramond";
+    --Helvetica: "CliniquesHelveticaNeue";
+
+}
+
+@font-face {
+    font-family: "CliniquesHelveticaNeue";
+    src: url(fuentes/CliniquesHelveticaNeue.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-size: var(--tamanoTitulo1);
+
+}
+
+h2 {
+    font-size: var(--tamanoTitulo2);
+
+}
+
+h3 {
+    font-size: var(--tamanoTitulo3);
+}
+
+h4 {
+    font-size: var(--tamanoTitulo4);
+}
+
+p {
+    font-size: var(--tamanop);
+}
+
+h5{
+font-size: 22em;
+}
+
+#hola{
+    height: 50vh;
+}

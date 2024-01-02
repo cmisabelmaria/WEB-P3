@@ -49,6 +49,7 @@ h2 {
 
 h3 {
     font-size: var(--tamanoTitulo3);
+    letter-spacing: -3px;
 }
 
 h4 {
@@ -96,3 +97,12 @@ letter-spacing: -10px;
   .hr {
     color: #F96231 !important;
   }
+
+  .textalignjustify {
+    text-align: justify;
+}
+
+
+.textosv12 > p{
+    width: 48%;
+}

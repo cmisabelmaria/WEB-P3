@@ -60,9 +60,31 @@ p {
 }
 
 h5{
-font-size: 22em;
+font-size: 15em;
 }
 
 #hola{
     height: 50vh;
 }
+
+.header {
+    height: 100vh;
+    background-image: url('img.main/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    text-align: center;
+  }
+  .textito{
+    position:absolute;
+  }
+
+  #menu{
+    z-index: 10;
+  }
+
+  .btn {
+    --bs-btn-hover-color: #f1f1f1;
+  }
+ 

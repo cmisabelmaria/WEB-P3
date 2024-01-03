@@ -102,22 +102,8 @@ p {
     text-align: center;
     z-index: 3; 
 }
- 
-@keyframes scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
 
-.scrolling-text {
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-    animation: scroll 20s linear infinite;
-}
+
 
 .about {
     height: 300vh;
@@ -128,7 +114,6 @@ p {
 }
 
 .about-pages > div{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -136,3 +121,40 @@ p {
 
 }
 
+body > section.about > div.about-title {
+    background-attachment: fixed;
+    background-color: red;
+}
+
+.accordion {
+    --bs-accordion-active-color:white;
+    --bs-accordion-active-bg:blue;
+}
+
+.div-animación-infinite {
+    overflow: hidden;
+}
+
+.div-elegirscroll-dirección {
+    white-space: nowrap;
+    font-size: 16px;
+    padding: 5% 0;
+}
+
+.div-elegirscroll-dirección>div {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+.div-animación-infinite:hover .div-elegirscroll-dirección>div {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(70%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

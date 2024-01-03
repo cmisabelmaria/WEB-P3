@@ -158,3 +158,10 @@ body > section.about > div.about-title {
         transform: translateX(-100%);
     }
 }
+
+/* intento de scroll div horizontal*/
+
+.horizontal-scrollable {
+    overflow-x: auto;
+    white-space: nowrap;
+}

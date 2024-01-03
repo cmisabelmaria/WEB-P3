@@ -1,0 +1,172 @@
+:root {
+    --tamanoTitulo1: 8rem;
+    --tamanoTitulo2: calc(var(--tamanoTitulo1) - 2rem);
+    --tamanoTitulo3: calc(var(--tamanoTitulo2) - 1.5rem);
+    --tamanoTitulo4: calc(var(--tamanoTitulo3) - 2rem);
+    --tamanop: calc(var(--tamanoTitulo4) - 1rem);
+    --colornegro: #1D1D1B;
+    --colorblanco: #f1f1f1;
+    --colorazul: #000CEA;
+    --colornaranja: #F96231;
+    --Applegaramond: "AppleGaramond";
+    --Helvetica: "CliniquesHelveticaNeue";
+
+}
+
+@font-face {
+    font-family: "CliniquesHelveticaNeue";
+    src: url(fuentes/CliniquesHelveticaNeue.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, p {
+    color: var(--colornegro);
+    margin-bottom: 0;
+}
+
+section {
+    background-color: var(--colorblanco);
+}
+
+h1 {
+    font-size: var(--tamanoTitulo1);
+
+}
+
+h2 {
+    font-size: var(--tamanoTitulo2);
+
+}
+
+h3 {
+    font-size: var(--tamanoTitulo3);
+}
+
+h4 {
+    font-size: var(--tamanoTitulo4);
+}
+
+p {
+    font-size: var(--tamanop);
+}
+
+/*Pag Tickets*/
+
+/*Menú*/
+
+/*----------------------------------------------------------------------*/
+
+/*Inicio Tickets*/
+    /*contenedor*/
+        .tickets {
+            position: relative;
+        }
+
+    /*texto (icono aura club)*/
+        .text_inicio_01 {
+            color: var(--colorblanco);
+            position: absolute;
+            top: 10%;
+            left: 38%;
+            font-family: var(--Helvetica);
+            font-size: var(--tamanoTitulo1);
+        }
+
+    /*texto (Una --- --- ubicada en el centro de Madrid, ---)*/
+        .text_inicio_02 > h1 {
+            font-family: var(--Helvetica);
+            font-size: var(--tamanoTitulo4);
+            color: #c0c0c0;
+            position: absolute;
+            top: 26%;
+            left: 10%;
+        }
+
+    /*texto (-- experiencia única --- -- -- --- -- ---, Chueca)*/
+        .text_inicio_02 > h1 > strong {
+            color: var(--colorblanco);
+        }
+
+    /*icono aura club*/
+        .icono_aura_club {
+            position: absolute;
+            bottom: 6%;
+            left: 48%;
+        }
+
+/*----------------------------------------------------------------------*/
+
+/*Apartado VIP*/
+    /*contenedor vip*/
+        .vip {
+            height: 100vh;
+        }
+
+    /*Contenedor Estrella*/ 
+        .img_vip {
+            height: 100vh;
+        }
+
+     /*estrella*/
+        .img_vip > img {
+            width: 30%;
+            position: absolute;
+            top: 264%;
+            left: 10%;
+        }
+
+    /*Tamaño CAJA texto - ¿Quiéres saber más acerca de nuestros eventos?*/
+        .texto_caja {
+            padding: 3em;
+            height: 50%;
+            width: 50%;
+        }
+
+    /*Texto Caja VIP*/
+        .texto_caja > h1 {
+            color: var(--colorazul);
+            font-size: var(--tamanoTitulo4);
+            font-family: var(--Helvetica);
+        }
+
+    /*Linea Separadora*/
+        .linea_separadora_azul {
+            height: 87%;
+        }
+
+    /*contenedor botón*/
+        .button {
+            padding-top: 20em;
+            position: absolute;
+            left: 90%;
+        }
+
+    /*Botón VIP*/
+        .button_vip {
+            font-size: var(--tamanoTitulo3);
+            color: var(--colorblanco);
+            background-color: #000CEA;
+            text-decoration: none;
+            padding: 0px 20px 10px 20px;
+            border-radius: 100%;
+            border: 0px;
+        }
+
+/*----------------------------------------------------------------------*/
+
+/*Actividades*/
+
+/*----------------------------------------------------------------------*/
+
+/*Footer*/
+

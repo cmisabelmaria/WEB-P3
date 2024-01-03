@@ -111,3 +111,12 @@ h6{
 #comentarios{
     height: 100vh;
 }
+
+.FOOTER{
+    height: 100vh;
+}
+
+.ig, .tiktok, .tw{
+    width: 30%;
+}
+

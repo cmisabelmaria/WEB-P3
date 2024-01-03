@@ -67,7 +67,7 @@ h6{
 }
 
 .hola{
-    height: 50vh;
+    height: 100vh;
 }
 
 .header {
@@ -120,3 +120,14 @@ h6{
     width: 30%;
 }
 
+.goods{
+    height: 15em;
+}
+
+.cositas{
+    height: 30em;
+}
+
+.doble{
+    width: 35%;
+}

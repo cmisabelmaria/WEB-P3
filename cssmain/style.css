@@ -177,3 +177,79 @@ h6{
     white-space: nowrap;
 }
 
+
+@media (max-width: 376px) {
+    .menu{
+        flex-direction: column;
+        background-color: #1f1f1f;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        position: static !important ;
+        align-items: center;
+    }
+
+    .dd {
+        display: block !important;
+        font-size: 2em;
+    }
+
+    
+    .titulo{
+        font-size: 5em;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    h5{
+        font-size: 11em;
+
+    }
+
+    header{
+        display: flex;
+    
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+
+    h1{
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .as{
+        width: 20%;
+    }
+}
+
+@media (max-width: 890px) {
+
+    .as{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    h5{
+        line-height: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+  

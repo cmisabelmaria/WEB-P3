@@ -51,6 +51,7 @@ h3 {
 
 h4 {
     font-size: var(--tamanoTitulo4);
+    letter-spacing: -3px;
 }
 
 p {
@@ -128,5 +129,15 @@ h6{
     height: 30em;
 }
 
+.modal-content{
+    width: 150%;
+}
 
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
 
+.hover:hover{
+    transform: scale(1.10);
+}

@@ -60,9 +60,22 @@ p {
 }
 
 h5{
-font-size: 22em;
+font-size: 18em;
 }
 
 #hola{
     height: 50vh;
+}
+
+.header {
+    height: 100vh;
+    background-image: url('img.main/intro.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.textito {
+    position: absolute;
 }

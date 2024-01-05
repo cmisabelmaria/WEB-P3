@@ -16,6 +16,9 @@
 @font-face {
     font-family: "CliniquesHelveticaNeue";
     src: url(fuentes/CliniquesHelveticaNeue.otf);
+    font-family: "AppleGaramond";
+    src: url(fuentes/AppleGaramond.ttf);
+
 }
 
 *{
@@ -165,3 +168,14 @@ body > section.about > div.about-title {
     overflow-x: auto;
     white-space: nowrap;
 }
+
+/*poner diferentes tipografías*/
+
+.tipo1 {
+    font-family: "CliniquesHelveticaNeue";
+}
+
+.tipo1 span {
+    font-family: "AppleGaramond";
+}
+

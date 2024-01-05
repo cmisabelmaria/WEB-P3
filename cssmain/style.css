@@ -72,12 +72,12 @@ h6{
 }
 
 .header {
-    height: 100vh;
+    height: auto;
     background-image: url('img.main/fondo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position:relative;
+    position: relative;
     text-align: center;
   }
   .textito{
@@ -248,4 +248,11 @@ h6{
     h2{
         font-size: 3em;
     }
+}
+
+/* intento de scroll div horizontal*/
+
+.horizontal-scrollable {
+    overflow-x: auto;
+    white-space: nowrap;
 }

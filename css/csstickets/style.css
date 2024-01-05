@@ -246,17 +246,32 @@ img {
     .icono_estrellita > img {
        padding-top: 60%;
     }
-    /*--------------------------------------/*
+
+/*-------------------------------------------------------------------/*
+
+        /*CONTENEDOR ACTIVIDADES JUEVES*/
+    /*Section Jueves*/
+    .jueves {
+        height: 100vh;
+    }
+
+    /*Div Actividades Jueves*/
+    .actividades_jueves {
+        display: flex;
+        height: 20vh;
+    }
+
+    /*----CARRUSEL----/*
     
      /*contenedor carrusel*/
-     .carrusel_side {
+     .carrusel_side_01 {
         background-color: var(--colornegro);
         width: 50%;
         height: 100vh;
     }
-
-    /*Título actividades jueves*/
-    .carrusel_side > h1 {
+    
+    /*Título KARAOKE*/
+    .carrusel_side_01 > h1 {
         padding: 0.6em;
         color: var(--colorblanco);
         text-align: center;
@@ -264,81 +279,71 @@ img {
         font-family: Helvetica, CliniquesHelveticaNeue;
     }
 
-    
-
     /*img carrusel*/
-    .img_carrusel {
+    .img_carrusel_01 {
         width: 56%;
     }
 
-
-    /*CONTENEDOR ACTIVIDADES JUEVES*/
-    .actividades_jueves {
-        display: flex;
-        height: 20vh;
-    }
+     /*----INFORMACIÓN EVENTO----/*
+     /*contenedor info*/
+     .info_side_01 {
+        width: 50%;
+        height: 100vh;
+     }
 
     /*Contenedor Título Jueves*/
-    .day_event {
+    .day_event_01 {
         background-color: var(--colornaranja);
         border-radius: 20px;
         width: 28%;
         margin: 10px;
     }
 
-    /*Contenedor Título Jueves*/
-    .day_event > h1 {
+    /*Div_01 - Título Día Evento*/
+    /*Título Jueves*/
+    .day_event_01 > h1 {
         font-family: Helvetica, CliniquesHelveticaNeue;
         font-size: 50px;
         color: var(--colorblanco);
         padding: 20px;
     }
 
-    /*contenedor info eventos*/
-    .info_event {
-        height: 38%;
-    }
-
-     /*contenedor info*/
-     .info_side {
-        width: 50%;
-        height: 100vh;
-     }
-
-     /**/
-     .info_event {
+    /*Div_02 - Info Evento*/
+    /*contenedor info evento*/
+    .info_event_01 {
         display: flex;
+        height: 38%;
      }
 
-    /**/
-    .hueco {
+    /*HUECO*/
+    .hueco_01 {
         width: 50%;
     }
 
     /*linea separadora vertical naranja*/
-    .v-line{
+    .v-line {
         border-left: 2px solid var(--colornaranja);
         height: 38%;
         position: absolute;
-       }
+    }
 
-       .text_info_event {
+    .text_info_event_01 {
         margin: auto;
         font-size: 20px;
         font-family: Helvetica, CliniquesHelveticaNeue;
         color: var(--colornaranja);
-       }
+    }
        
-
-       /*Contenedores Comprar*/
-       .comprar {
+    /*Div 03 - APARTADO COMPRA*/
+    /*Contenedores Comprar*/
+       .comprar_01 {
             display: flex;
             justify-content: space-around;
             height: 40%;
        }
 
         /*Contenedor Precio VIP*/        
-        .precio_vip {
+        .precio_vip_01 {
             margin: 1em;
             padding: 50px;
             height: 40vh;
@@ -350,7 +355,7 @@ img {
         }
 
         /*Título VIP_*/
-        .precio_vip > h3 {
+        .precio_vip_01 > h3 {
             font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colornaranja);
             font-size: 30px;
@@ -358,7 +363,7 @@ img {
         }
 
         /*Párrafo Precio VIP_*/
-        .precio_vip > p {
+        .precio_vip_01 > p {
             font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colornaranja);
             font-size: 41.584px;
@@ -367,7 +372,7 @@ img {
         }
 
          /*Contenedor Precio General*/        
-         .precio_general {
+         .precio_general_01 {
             margin: 1em;
             padding: 50px;
             height: 40vh;
@@ -379,7 +384,7 @@ img {
         }
 
          /*Título General_*/
-         .precio_general > h3 {
+         .precio_general_01 > h3 {
             font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colornaranja);
             font-size: 30px;
@@ -387,7 +392,7 @@ img {
         }
 
         /*Párrafo Precio General_*/
-        .precio_general > p {
+        .precio_general_01 > p {
             font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colornaranja);
             font-size: 41.584px;
@@ -396,14 +401,373 @@ img {
         }
 
         /*Botón Comprar*/
-        .button_comprar {
+        .button_comprar_01 {
             font-size: 20px;
             font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colorblanco);
             background-color: var(--colornaranja);
             padding: 10px 50px 10px 50px;
             border-radius: 100px;
-            border: none;            
+            border: none;
+        }
+
+/*----------------------------------------------------------------------*/
+
+    /*CONTENEDOR ACTIVIDADES VIERNES*/
+    /*Section Viernes*/
+    .viernes {
+        height: 100vh;
+    }
+
+    /*Div Actividades Viernes*/
+    .actividades_viernes {
+        display: flex;
+        height: 20vh;
+    }
+
+    
+     /*----INFORMACIÓN EVENTO----/*
+     /*contenedor info*/
+     .info_side_02 {
+        width: 56%;
+        height: 100vh;
+     }
+
+    /*Contenedor Título Viernes*/
+    .day_event_02 {
+        background-color: var(--colornaranja);
+        border-radius: 20px;
+        width: 28%;
+        margin: 10px;
+    }
+
+    /*Div_01 - Título Día Evento*/
+    /*Título Viernes*/
+    .day_event_02 > h1 {
+        font-family: Helvetica, CliniquesHelveticaNeue;
+        font-size: 50px;
+        color: var(--colorblanco);
+        padding: 20px;
+    }
+
+    /*Div_02 - Info Evento*/
+    /*contenedor info evento*/
+    .info_event_02 {
+        display: flex;
+        height: 38%;
+     }
+
+    /*HUECO*/
+    .hueco_02 {
+        width: 50%;
+    }
+
+    /*linea separadora vertical naranja*/
+    .v-line {
+        border-left: 2px solid var(--colornaranja);
+        height: 38%;
+        position: absolute;
+    }
+
+    .text_info_event_02 {
+        margin: auto;
+        font-size: 20px;
+        font-family: Helvetica, CliniquesHelveticaNeue;
+        color: var(--colornaranja);
+    }
+       
+    /*Div 03 - APARTADO COMPRA*/
+    /*Contenedores Comprar*/
+       .comprar_02 {
+            display: flex;
+            justify-content: space-around;
+            height: 40%;
+       }
+
+        /*Contenedor Precio VIP*/        
+        .precio_vip_02 {
+            margin: 1em;
+            padding: 50px;
+            height: 40vh;
+            width: 100%;
+            border-radius: 2px var(--colornegro);
+            padding: 10px 50px 10px 50px;
+            border-radius: 25px;
+            border: 4px solid var(--colornaranja);
+        }
+
+        /*Título VIP_*/
+        .precio_vip_02 > h3 {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 30px;
+            padding-top: 10%;
+        }
+
+        /*Párrafo Precio VIP_*/
+        .precio_vip_02 > p {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 41.584px;
+            padding-top: 3.4em;
+            text-align: right;
+        }
+
+         /*Contenedor Precio General*/        
+         .precio_general_02 {
+            margin: 1em;
+            padding: 50px;
+            height: 40vh;
+            width: 100%;
+            border-radius: 2px var(--colornegro);
+            padding: 10px 50px 10px 50px;
+            border-radius: 25px;
+            border: 4px solid var(--colornaranja);
+        }
+
+         /*Título General_*/
+         .precio_general_02 > h3 {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 30px;
+            padding-top: 10%;
+        }
+
+        /*Párrafo Precio General_*/
+        .precio_general_02 > p {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 41.584px;
+            padding-top: 3.4em;
+            text-align: right;
+        }
+
+        /*Botón Comprar*/
+        .button_comprar_02 {
+            font-size: 20px;
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colorblanco);
+            background-color: var(--colornaranja);
+            padding: 10px 50px 10px 50px;
+            border-radius: 100px;
+            border: none;
+        }
+
+    /*----CARRUSEL----/*
+    
+     /*contenedor carrusel*/
+     .carrusel_side_02 {
+        background-color: var(--colornegro);
+        width: 50%;
+        height: 100vh;
+    }
+    
+
+
+    /*Título -- SEASON */
+    .carrusel_side_02 > h1 {
+        padding: 0.6em;
+        color:#c0c0c0;
+        text-align: center;
+        font-size: 60px;
+        font-family: Helvetica, CliniquesHelveticaNeue;
+    }
+
+    /*Título DJ ---*/
+    .carrusel_side_02 > h1 > strong {
+        color: var(--colorblanco);
+        font-family: Helvetica, CliniquesHelveticaNeue;
+    }
+
+    /*Título -- SEASON*/
+    .carrusel_side_02 > h1 {
+        padding: 0.6em;
+        color:#c0c0c0;
+        text-align: center;
+        font-size: 60px;
+        font-family: Helvetica, CliniquesHelveticaNeue;
+    }
+
+    /*img carrusel*/
+    .img_carrusel_02 {
+        width: 56%;
+    }
+
+     /*--------------------------------------/*
+
+    
+    /*CONTENEDOR ACTIVIDADES SÁBADO*/
+    /*Section Sábado*/
+    .sabado {
+        height: 100vh;
+    }
+
+    /*Div Actividades Sueves*/
+    .actividades_sabado {
+        display: flex;
+        height: 20vh;
+    }
+
+
+    /*----CARRUSEL----/*
+    
+     /*contenedor carrusel*/
+     .carrusel_side_03 {
+        background-color: var(--colornegro);
+        width: 50%;
+        height: 100vh;
+    }
+    
+/*
+
+    /*Título YOUR --- */
+    .carrusel_side_03 > h1 {
+        padding: 0.6em;
+        color:#c0c0c0;
+        text-align: center;
+        font-size: 60px;
+        font-family: Helvetica, CliniquesHelveticaNeue;
+    }
+
+
+    /*Título -- CONCERT*/
+    .carrusel_side_03 > h1 > strong {
+        color: var(--colorblanco);
+        font-family: Helvetica, CliniquesHelveticaNeue;
+    }
+
+
+
+    /*img carrusel*/
+    .img_carrusel_03 {
+        width: 56%;
+    }
+
+     /*----INFORMACIÓN EVENTO----/*
+     /*contenedor info*/
+     .info_side_03 {
+        width: 50%;
+        height: 100vh;
+     }
+
+    /*Contenedor Título Jueves*/
+    .day_event_03 {
+        background-color: var(--colornaranja);
+        border-radius: 20px;
+        width: 28%;
+        margin: 10px;
+    }
+
+    /*Div_01 - Título Día Evento*/
+    /*Título Jueves*/
+    .day_event_03 > h1 {
+        font-family: Helvetica, CliniquesHelveticaNeue;
+        font-size: 50px;
+        color: var(--colorblanco);
+        padding: 20px;
+    }
+
+    /*Div_02 - Info Evento*/
+    /*contenedor info evento*/
+    .info_event_03 {
+        display: flex;
+        height: 38%;
+     }
+
+    /*HUECO*/
+    .hueco_03 {
+        width: 50%;
+    }
+
+    /*linea separadora vertical naranja*/
+    .v-line {
+        border-left: 2px solid var(--colornaranja);
+        height: 38%;
+        position: absolute;
+    }
+
+    .text_info_event_03 {
+        margin: auto;
+        font-size: 20px;
+        font-family: Helvetica, CliniquesHelveticaNeue;
+        color: var(--colornaranja);
+    }
+       
+    /*Div 03 - APARTADO COMPRA*/
+    /*Contenedores Comprar*/
+       .comprar_03 {
+            display: flex;
+            justify-content: space-around;
+            height: 40%;
+       }
+
+        /*Contenedor Precio VIP*/        
+        .precio_vip_03 {
+            margin: 1em;
+            padding: 50px;
+            height: 40vh;
+            width: 100%;
+            border-radius: 2px var(--colornegro);
+            padding: 10px 50px 10px 50px;
+            border-radius: 25px;
+            border: 4px solid var(--colornaranja);
+        }
+
+        /*Título VIP_*/
+        .precio_vip_03 > h3 {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 30px;
+            padding-top: 10%;
+        }
+
+        /*Párrafo Precio VIP_*/
+        .precio_vip_03 > p {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 41.584px;
+            padding-top: 3.4em;
+            text-align: right;
+        }
+
+         /*Contenedor Precio General*/        
+         .precio_general_03 {
+            margin: 1em;
+            padding: 50px;
+            height: 40vh;
+            width: 100%;
+            border-radius: 2px var(--colornegro);
+            padding: 10px 50px 10px 50px;
+            border-radius: 25px;
+            border: 4px solid var(--colornaranja);
+        }
+
+         /*Título General_*/
+         .precio_general_03 > h3 {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 30px;
+            padding-top: 10%;
+        }
+
+        /*Párrafo Precio General_*/
+        .precio_general_03 > p {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 41.584px;
+            padding-top: 3.4em;
+            text-align: right;
+        }
+
+        /*Botón Comprar*/
+        .button_comprar_03 {
+            font-size: 20px;
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colorblanco);
+            background-color: var(--colornaranja);
+            padding: 10px 50px 10px 50px;
+            border-radius: 100px;
+            border: none;
         }
 
 /*----------------------------------------------------------------------*/

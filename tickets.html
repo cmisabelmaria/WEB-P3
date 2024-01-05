@@ -62,10 +62,10 @@
 
 
 <section id="eventos bien" style="height: auto;">
-  <div class="row w-100">
-    <div class="col pt-2"><img src="css/csstickets/img.tickets/img_estrella_azul.png" alt="estrella azul"></div>
-    <div class="col border-start border-primary border-2 d-flex flex-column justify-content-between" style="border: var(--colorazul); opacity: 1;"> 
-      <div class="w-75"><h4 style="color: var(--colorazul);">¿Quiéres saber más acerca de nuestros eventos?</h4></div>
+  <div class="row w-100 d-flex justify-content-center">
+    <div class="col-lg-6 col-sm-10 pt-2 d-flex justify-content-center p-2"><div  style="width: 100%; height: auto;"><img src="css/csstickets/img.tickets/img_estrella_azul.png" alt="estrella azul" style="width: 100%; height: auto;"></div></div>
+    <div class="col-lg-6 col-sm-10 border-start border-primary border-2 d-flex flex-column justify-content-between" style="border: var(--colorazul); opacity: 1;"> 
+      <div class=""><h4 style="color: var(--colorazul);">¿Quiéres saber más acerca de nuestros eventos?</h4></div>
       <div class="d-flex justify-content-end"><button type="button" class="m-2 btn btn-outline-light rounded-pill" style="background-color: var(--colorazul);"><h4 class="" style="color: var(--colorblanco);">→</h4></button>   </div>  
     </div>
   </div>
@@ -107,10 +107,10 @@
   </div>
 <hr class="m-0 w-100" style="height: 4px; border: none; background-color: var(--colornaranja); opacity: 1;">
 
-<div class="row w-100 p-0">
-  <div class="col-lg-6 d-flex flex-column align-items-center" style="background-color:black; padding: 5% 0;"> <div class="carrusel_side_01">
+<div class="row w-100" style="min-height: 100vh;">
+  <div class="col-lg-6 col-md-6 d-flex flex-column align-items-center" style="background-color:black;"> <div class="carrusel_side_01">
     <div class="d-flex justify-content-center"><h3 style="color: var(--colorblanco);">★ KARAOKE ★</h3></div>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 20%; height: auto;">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="img_carrusel_01" src="css/csstickets/img.tickets/img_karaoke_01.png" class="d-block w-75" alt="karaoke 01">
@@ -132,21 +132,37 @@
       </button>
     </div>
   </div></div>
-  <div class="col-lg-6">
+  <div class="col-lg-6 col-md-6 d-flex flex-column justify-content-around" style="height: auto;">
     <div class="mt-2 mb-2">
       <div class="w-50 border rounded-3" style="background-color: var(--colornaranja);">
         <h3 class="p-2 text-center" style="color: var(--colorblanco);">JUEVES_</h3></div>
     </div>
 
-    <div class="row justify-content-end d-flex w-100" style="min-height: 40vh;">
+    <div class="row justify-content-end align-content-center d-flex">
       <hr class="m-0 w-100" style="height: 4px; border: none; background-color: var(--colornaranja); opacity: 1;">
-             <div class="w-50 d-flex align-items-end p-0 border-start border-2 border-primary">
-
-      <p class="p-3" style="font-size: 1rem;">Disfruta interpretando a tus artistas favoritos No te hará falta seguir la letra en la pantalla, te sentirás todo un artifice</p></div>
+             <div class="col-lg-6 col-md-8 col-sm-6 d-flex align-items-end p-0 border-start border-2 border-primary" style="min-height: 40vh;">
+                <p class="p-3" style="font-size: 1rem;">Disfruta interpretando a tus artistas favoritos No te hará falta seguir la letra en la pantalla, te sentirás todo un artifice</p>
+            </div>
       <hr class="m-0 w-100" style="height: 4px; border: none; background-color: var(--colornaranja); opacity: 1;">
     
     </div>
-    <div class="row"><div class="col"></div><div class="col"></div></div>
+
+    <div class="row d-flex align-content-center" style="min-height: 30vh;">
+        <div class="col d-flex justify-content-around h-100 ">
+          <div class="col-lg-5 col-md-5 col-sm-6 m-2 border border-2 border-primary rounded-3" >
+            <div class="d-flex" style="height: 20vh;">
+              <h4 class="p-2 text-center" style="color: var(--colornaranja);">Vip_</h4>
+            </div>
+            <div class="d-flex flex-column align-items-end">
+              <h4 class="p-2 text-center" style="color: var(--colornaranja);">40€</h4>
+              <button type="button" class="d-flex m-2 btn rounded-pill" style="background-color: var(--colornaranja);">Comprar</button>
+            </div>
+          <!--cambiar botón-->
+          </div>
+          <div class= "col-lg-5 col-md-5 col-sm-6 m-2 border border-2 border-primary rounded-3" style="color: var(--colornaranja);"></div>
+        </div>
+    </div>
+
   </div>
 </div>
 </section>
@@ -211,24 +227,11 @@
       <div class="day_event_01">
         <h1>JUEVES_</h1>
       </div>
-      <!--Línea Separadora
-      <img src="css/csstickets/img.tickets/img_line_horizontal_naranja.jpg" alt="barra separadora naranja">
-      <!--Info evento
-      <div class="info_event_01">
-        <div class="hueco_01">
-        </div>
-        <!--Línea Separadora
-        <div>
-          <div class="v-line">
-          </div>
-        </div>
         <!--Texto Info Evento
         <div class="text_info_event_01">
           <p>Disfruta interpretando a tus<br>artistas favoritos<br><br>No te hará falta seguir la letra en la<br>pantalla, te sentirás todo un artifice</p>
         </div>
       </div>
-      <!--Línea Separadora
-      <img src="css/csstickets/img.tickets/img_line_horizontal_naranja.jpg" alt="barra separadora naranja">
       <!--APARTADO COMPRA
       <div class="comprar_01">
         <div>

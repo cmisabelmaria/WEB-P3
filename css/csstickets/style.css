@@ -64,10 +64,7 @@ p {
     font-size: var(--tamanop);
 }
 
-.borderazul {
-    --bs-border-color: (var(--colorazul));
-}
 
-.bordernaranja {
-    --bs-border-color: (var(--colornaranja));
+.border {
+    border-color: var(--colornaranja)!important;
 }

@@ -47,13 +47,13 @@ img {
             position: absolute;
             top: 10%;
             left: 38%;
-            font-family: var(--Helvetica);
+            font-family: Helvetica, CliniquesHelveticaNeue;
             font-size: var(--tamanoTitulo1);
         }
 
     /*texto (Una --- --- ubicada en el centro de Madrid, ---)*/
         .text_inicio_02 > h1 {
-            font-family: var(--Helvetica);
+            font-family: Helvetica, CliniquesHelveticaNeue;
             font-size: var(--tamanoTitulo4);
             color: #c0c0c0;
             position: absolute;
@@ -64,6 +64,7 @@ img {
     /*texto (-- experiencia única --- -- -- --- -- ---, Chueca)*/
         .text_inicio_02 > h1 > strong {
             color: var(--colorblanco);
+            font-family: Helvetica, CliniquesHelveticaNeue;
         }
 
     /*icono aura club*/
@@ -81,27 +82,29 @@ img {
            max-height: 100vh;
             margin-left: 1em;
             margin-right: 1em;
-            background-color: coral;
         }
+
+        #seccion_eventos {
+            height: 66vh;
+        }
+
     /*Contenedor izquierdo*/ 
         #caja_izq {
-            height: 70vh;
-            background-color: aqua;
+            height: 66vh;
         }   
 
      /*estrella*/
         .estrella > img {
-            width: 28%;
+            width: 24%;
             position: absolute;
-            top: 252%;
-            left: 10%;
+            top: 254%;
+            left: 12%;
         }
 
     /**Contenedor derecho*/
         
         #caja_drch {
-            height: 70vh;
-            background-color: aqua;
+            height: 66vh;
         }   
 
 
@@ -116,17 +119,17 @@ img {
         .texto_caja > h1 {
             color: var(--colorazul);
             font-size: var(--tamanoTitulo4);
-            font-family: var(--Helvetica);
+            font-family: Helvetica, CliniquesHelveticaNeue;
         }
 
     /*Linea Separadora*/
         .linea_separadora_azul {
-            height: 61%;
+            height: 100%;
         }
 
     /*contenedor botón*/
         .button_01 {
-            padding-top: 12em;
+            padding-top: 10em;
             position: absolute;
             left: 90%;
         }
@@ -134,6 +137,7 @@ img {
     /*Botón eventos*/
         .button_eventos {
             font-size: var(--tamanoTitulo3);
+            font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colorblanco);
             background-color: var(--colorazul);
             text-decoration: none;
@@ -147,7 +151,7 @@ img {
 
         /*VIP*/
         .vip {
-            height: 30vh;
+            height: 34vh;
             background-color: var(--colorazul);
             border-radius: 30px;
             display: flex;
@@ -162,19 +166,21 @@ img {
         /*Títulos Vip_ - 10€*/
         .vip > div > h2 {
             font-size: 50px;
+            font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colorblanco);
         }
 
         /*caja párrafo*/
         .info_vip{
             height: 50%;
-            width: 50%;
+            width: 46%;
         }
 
         /*párrafo*/
         .vip > div > p {
             padding-top: 0.2em;
             font-size: 20px;
+            font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colorblanco);
         }
 
@@ -187,7 +193,7 @@ img {
 
         /*Contenedor Botón Vip*/
         .button_02 {
-            padding-top: 10em;
+            padding-top: 13em;
             position: absolute;
             left: 85%;
         }
@@ -195,6 +201,7 @@ img {
         /*Botón vip*/
         .button_vip {
             font-size: 20px;
+            font-family: Helvetica, CliniquesHelveticaNeue;
             color: var(--colorblanco);
             background-color: var(--colorazul);
             padding: 10px 50px 10px 50px;
@@ -203,34 +210,201 @@ img {
             
         }
 
+/*----------------------------------------------------------------------*/
 
-/*
-
-.button_01 {
-    padding-top: 12em;
-    position: absolute;
-    left: 90%;
+/*Barra separadora horizontal naranja*/
+.barra_hrztl_naranja {
+    padding-top: 6%;
 }
-
-
-.button_eventos {
-    font-size: var(--tamanoTitulo3);
-    color: var(--colorblanco);
-    background-color: var(--colorazul);
-    text-decoration: none;
-    padding: 0px 20px 10px 20px;
-    border-radius: 100%;
-    border: 0px;
-}
-*/
-
-
-
-
 
 /*----------------------------------------------------------------------*/
 
 /*Actividades*/
+
+    /*contenedor actividades*/
+    .inicio_actividades {
+        display: flex;
+        margin: 1em;
+    }
+
+    /*caja título*/
+    .titulo_act {
+        width: 1728px;
+        padding: 1.2em;
+    }
+
+    /*título actividades*/
+    .titulo_act > h1 {
+        color: var(--colornaranja);
+        font-family: Apple Garamond;
+        font-size: 271.181px;
+        font-style: italic;
+    }
+
+
+    /*estrellita naranja*/
+    .icono_estrellita > img {
+       padding-top: 60%;
+    }
+    /*--------------------------------------/*
+    
+     /*contenedor carrusel*/
+     .carrusel_side {
+        background-color: var(--colornegro);
+        width: 50%;
+        height: 100vh;
+    }
+
+    /*Título actividades jueves*/
+    .carrusel_side > h1 {
+        padding: 0.6em;
+        color: var(--colorblanco);
+        text-align: center;
+        font-size: 60px;
+        font-family: Helvetica, CliniquesHelveticaNeue;
+    }
+
+    
+
+    /*img carrusel*/
+    .img_carrusel {
+        width: 56%;
+    }
+
+
+    /*CONTENEDOR ACTIVIDADES JUEVES*/
+    .actividades_jueves {
+        display: flex;
+        height: 20vh;
+    }
+
+    /*Contenedor Título Jueves*/
+    .day_event {
+        background-color: var(--colornaranja);
+        border-radius: 20px;
+        width: 28%;
+        margin: 10px;
+    }
+
+    /*Contenedor Título Jueves*/
+    .day_event > h1 {
+        font-family: Helvetica, CliniquesHelveticaNeue;
+        font-size: 50px;
+        color: var(--colorblanco);
+        padding: 20px;
+    }
+
+    /*contenedor info eventos*/
+    .info_event {
+        height: 38%;
+    }
+
+     /*contenedor info*/
+     .info_side {
+        width: 50%;
+        height: 100vh;
+     }
+
+     /**/
+     .info_event {
+        display: flex;
+     }
+
+    /**/
+    .hueco {
+        width: 50%;
+    }
+
+    /*linea separadora vertical naranja*/
+    .v-line{
+        border-left: 2px solid var(--colornaranja);
+        height: 38%;
+        position: absolute;
+       }
+
+       .text_info_event {
+        margin: auto;
+        font-size: 20px;
+        font-family: Helvetica, CliniquesHelveticaNeue;
+        color: var(--colornaranja);
+       }
+       
+
+       /*Contenedores Comprar*/
+       .comprar {
+            display: flex;
+            justify-content: space-around;
+            height: 40%;
+       }
+
+        /*Contenedor Precio VIP*/        
+        .precio_vip {
+            margin: 1em;
+            padding: 50px;
+            height: 40vh;
+            width: 100%;
+            border-radius: 2px var(--colornegro);
+            padding: 10px 50px 10px 50px;
+            border-radius: 25px;
+            border: 4px solid var(--colornaranja);
+        }
+
+        /*Título VIP_*/
+        .precio_vip > h3 {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 30px;
+            padding-top: 10%;
+        }
+
+        /*Párrafo Precio VIP_*/
+        .precio_vip > p {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 41.584px;
+            padding-top: 3.4em;
+            text-align: right;
+        }
+
+         /*Contenedor Precio General*/        
+         .precio_general {
+            margin: 1em;
+            padding: 50px;
+            height: 40vh;
+            width: 100%;
+            border-radius: 2px var(--colornegro);
+            padding: 10px 50px 10px 50px;
+            border-radius: 25px;
+            border: 4px solid var(--colornaranja);
+        }
+
+         /*Título General_*/
+         .precio_general > h3 {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 30px;
+            padding-top: 10%;
+        }
+
+        /*Párrafo Precio General_*/
+        .precio_general > p {
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colornaranja);
+            font-size: 41.584px;
+            padding-top: 3.4em;
+            text-align: right;
+        }
+
+        /*Botón Comprar*/
+        .button_comprar {
+            font-size: 20px;
+            font-family: Helvetica, CliniquesHelveticaNeue;
+            color: var(--colorblanco);
+            background-color: var(--colornaranja);
+            padding: 10px 50px 10px 50px;
+            border-radius: 100px;
+            border: none;            
+        }
 
 /*----------------------------------------------------------------------*/
 

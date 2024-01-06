@@ -72,3 +72,16 @@ p {
 .border {
     border-color: var(--colornaranja)!important;
 }
+
+.btn-warning {
+    --bs-btn-color: var(--colorblanco); /*color letras sin clickar*/
+    --bs-btn-bg: var(--colornaranja); /*color fondo sin clickar*/
+    --bs-btn-border-color: var(--colornaranja);
+    --bs-btn-hover-color: var(--colornaranja);
+    --bs-btn-hover-bg: #{shade-color(var(--colornaranja), 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--colornaranja);
+    --bs-btn-active-bg: #{shade-color(var(--colornaranja), 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }

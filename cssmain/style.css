@@ -25,6 +25,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--colorblanco);
+}
+
 img {
     width: 100%;
 }

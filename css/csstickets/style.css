@@ -43,6 +43,9 @@ h1, h2, h3, h4, p {
 
 section {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -72,3 +75,46 @@ p {
 .border {
     border-color: var(--colornaranja)!important;
 }
+
+
+.div-animación-infinite {
+    overflow: hidden;
+}
+
+.div-elegirscroll-dirección {
+    white-space: nowrap;
+    font-size: 16px;
+    padding: 5% 0;
+}
+
+.div-elegirscroll-dirección>div {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+.div-animación-infinite:hover .div-elegirscroll-dirección>div {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(70%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.btn-warning {
+    --bs-btn-color: var(--colorblanco); /*color letras sin clickar*/
+    --bs-btn-bg: var(--colornaranja); /*color fondo sin clickar*/
+    --bs-btn-border-color: var(--colornaranja);
+    --bs-btn-hover-color: var(--colornaranja);
+    --bs-btn-hover-bg: #{shade-color(var(--colornaranja), 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--colornaranja);
+    --bs-btn-active-bg: #{shade-color(var(--colornaranja), 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }

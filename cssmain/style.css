@@ -133,9 +133,6 @@ h6{
     height: 30em;
 }
 
-.modal-content{
-    width: 150%;
-}
 
 .modal-footer{
     display: flex;
@@ -182,6 +179,57 @@ h6{
 }
 
 
+
+
+@media (max-width: 1000px) {
+    h5{
+        font-size: 11em;
+
+    }
+
+    header{
+        display: flex;
+    
+    }
+
+    
+}
+
+
+
+@media (max-width: 960px) {
+
+    .as{
+        width: 20%;
+    }
+}
+
+@media (max-width: 890px) {
+
+    .as{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1{
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 576px) {
+
+    h5{
+        line-height: 0.8;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+   
+}
+
 @media (max-width: 376px) {
     .menu{
         flex-direction: column;
@@ -204,59 +252,4 @@ h6{
     }
 
 
-}
-
-@media (max-width: 1000px) {
-    h5{
-        font-size: 11em;
-
-    }
-
-    header{
-        display: flex;
-    
-    }
-
-    
-}
-
-@media (max-width: 768px) {
-
-    h1{
-        font-size: 5em;
-    }
-}
-
-@media (max-width: 960px) {
-
-    .as{
-        width: 20%;
-    }
-}
-
-@media (max-width: 890px) {
-
-    .as{
-        width: 100%;
-    }
-}
-
-@media (max-width: 576px) {
-
-    h5{
-        line-height: 0.8;
-    }
-}
-
-@media (max-width: 576px) {
-    h2{
-        font-size: 3em;
-    }
-}
-
-/* intento de scroll div horizontal*/
-
-.horizontal-scrollable {
-    overflow-x: auto;
-    white-space: nowrap;
 }

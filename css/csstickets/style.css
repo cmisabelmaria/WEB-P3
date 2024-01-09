@@ -118,3 +118,34 @@ p {
     --bs-btn-active-bg: #{shade-color(var(--colornaranja), 20%)};
     --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
   }
+
+  /*giro*/
+  .estrelladiv {
+    opacity: 1;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+  }
+  
+  .estrelladiv:hover .carta {
+      transform: rotateY(180deg);
+  }
+  
+.cara {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .cara.detras {
+    transform: rotateY(180deg);
+  }
+
+  @media only screen and (max-width: 576px) { 
+    .estrelladiv {
+        opacity: 0;
+        display: block;
+      }
+
+   }

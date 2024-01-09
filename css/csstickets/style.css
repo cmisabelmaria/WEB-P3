@@ -121,6 +121,8 @@ p {
 
   /*giro*/
   .estrelladiv {
+    opacity: 1;
+    display: flex;
     width: 200px;
     height: 200px;
     position: relative;
@@ -139,3 +141,11 @@ p {
   .cara.detras {
     transform: rotateY(180deg);
   }
+
+  @media only screen and (max-width: 576px) { 
+    .estrelladiv {
+        opacity: 0;
+        display: block;
+      }
+
+   }

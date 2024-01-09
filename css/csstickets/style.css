@@ -121,23 +121,17 @@ p {
 
   /*giro*/
   .estrelladiv {
-    margin: 100px;
-    width: 250px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: relative;
     perspective: 1000px;
   }
   
-  .estrelladiv:hover .estrella {
+  .estrelladiv:hover .carta {
       transform: rotateY(180deg);
   }
   
-  .estrella {
-    transform-style: preserve-3d;
-    transition: all 0.5s linear;
-  }
-  
-  .cara {
+.cara {
     position: absolute;
     backface-visibility: hidden;
   }

@@ -1,15 +1,10 @@
-/*  function splitScroll(){
-    const controller = new ScrollMagic.Controller();
 
-    new ScrollMagic.Scene ({
-        duration: '100%',
-        triggerElement:'.about-title',
-        triggerHook: 0
-    })
-    .setPin('.about-title')
-    .addIndicators()
-    .addTo(controller);
+function openMenu() {
+    "use strict";
+    document.getElementById("menu").style.left = "0";
 }
 
-splitScroll();
-*/
+function closeMenu() {
+    "use strict";
+    document.getElementById("menu").style.left = "-100%";
+}

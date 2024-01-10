@@ -17,10 +17,38 @@
     
     <title>AURA CLUB</title>
 </head>
+<header class="w-100 position-fixed align-top" style="z-index: 20;">
+  <i class="fas fa-bars" onclick="openMenu()"></i>
+  <nav id="menu"  class="menu w-100 d-flex position-fixed justify-content-center align-items-center pt-4"  data-aos="fade-down">
+      <span id="close2" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></span>
+    </div>
+    <div class="menu row d-flex align-items-center">
+    <div class="col opacity-75 d-flex justify-content-center">
+        <a href="index.html" target="blank"></a>
+        <button type="button" class="rounded-pill btn btn-dark"><p class="titulo text-light"> HOME</p></button>
+      </div>
+      <div class="col opacity-75 d-flex justify-content-center">
+        <a href="services.html" target="blank"></a>
+        <button type="button" class="rounded-pill btn btn-dark"><p class=" titulo text-light"> SERVICES</p></button>
+      </div>
 
+      <div class="col opacity-75 d-flex justify-content-center">
+        <a href="tickets.html" target="blank"></a>
+        <button type="button" class="rounded-pill btn btn-dark"><p class=" titulo text-light">TICKETS</p></button>
+      </div>
 
+      <div class="col opacity-75 d-flex justify-content-center">
+        <a href="cargolink" target="blank"></a>
+        <button type="button" class="rounded-pill btn btn-dark"><p class=" titulo text-light"> BLOG</p></button>
+      </div>
 
-
+      <div class="col opacity-75 d-flex justify-content-center">
+        <a href="disabled" target="blank"></a>
+        <button type="button" class="rounded-pill btn btn-dark"><p class="titulo text-light"> CART</p></button>
+      </div>
+ </div>
+  </nav>
+</header>
 
 <body>
     <section>
@@ -119,9 +147,9 @@
 
  
   <section class="d-flex flex-column justify-content-center" style="background-color: var(--colorazul);">
-    <div class="pt-4 d-flex justify-content-center"><h3 class="text-center text-light w-75" data-aos="zoom-out-up">Próximos Eventos <br> en Aura club</h3></div>
+    <div class="pt-4 d-flex justify-content-center"><h3 class="text-center text-light w-75">Próximos Eventos <br> en Aura club</h3></div>
     <p class="text-light d-flex justify-content-center" style="font-size: 1rem;">Desliza los eventos para ver más</p>
-    <div class="horizontal-scrollable" data-aos="zoom-out-up" style="padding: 5% 2%;">
+    <div class="horizontal-scrollable" style="padding: 5% 2%;">
       <div class="row flex-nowrap">
         <div class="col-lg-4 flex-column justify-content-center align-items-center">
           <div class="d-flex justify-content-center"><img src="css/img/karaokeStar.png" alt="fotoresaca"></div>
@@ -184,7 +212,7 @@
 
 
         <div class="col-lg-6 col-md-12">
-        <h1 class=" lh-1"style="color: var(--colornaranja);font-weight: 700;">Eventos <span style="opacity: 0.50;">privados_</span></h1>
+        <h2 class=" lh-1 eventosprivados"style="color: var(--colornaranja);font-weight: 700;">Eventos <span style="opacity: 0.50;">privados_</span></h2>
           <div style="padding-top: 5%;">
             <div class="row" style="height: auto;">
               <div class="col-lg-6 col-sm-6 d-flex flex-column">

@@ -206,6 +206,8 @@ body > section.about > div.about-title {
 
 
 @media screen and (max-width: 1000px) {
+    :root {
+    --tamanoTitulo1: 7.8rem;}
     
     #close2 > i.fa-solid.fa-xmark,
     .pantallainicio > i.fa-bars {

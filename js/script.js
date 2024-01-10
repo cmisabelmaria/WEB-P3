@@ -8,3 +8,4 @@ function closeMenu() {
     "use strict";
     document.getElementById("menu").style.left = "-100%";
 }
+

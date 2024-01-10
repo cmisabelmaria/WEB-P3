@@ -79,12 +79,6 @@ p {
     font-size: var(--tamanop);
 }
 
-
-.border {
-    border-color: var(--colornaranja)!important;
-}
-
-
 .div-animación-infinite {
     overflow: hidden;
 }
@@ -150,10 +144,31 @@ p {
     transform: rotateY(180deg);
   }
 
+  
+@media screen and (max-width: 1000px) {
+    :root {
+    --tamanoTitulo1: 7.8rem;}
+    }
+    
+    @media screen and (max-width: 667px) {
+        .h1{
+            font-size: 5rem!important;
+        }
+    }
+
   @media only screen and (max-width: 576px) { 
     .estrelladiv {
         opacity: 0;
         display: block;
       }
+
+      .h1 {
+        font-size: 4.5rem!important;
+    }
+
+    .izq {
+        display: flex;
+    }
+
 
    }

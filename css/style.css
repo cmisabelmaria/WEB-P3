@@ -32,6 +32,10 @@ body {
     background-color: var(--colorblanco);
 }
 
+.FOOTER{
+    height: 100vh;
+}
+
 img {
     width: 100%;
 }
@@ -187,14 +191,12 @@ body > section.about > div.about-title {
     }
 }
 
-/* intento de scroll div horizontal*/
 
 .horizontal-scrollable {
     overflow-x: auto;
     white-space: nowrap;
 }
 
-/*poner diferentes tipografías*/
 
 .tipo1 {
     font-family: "CliniquesHelveticaNeue";

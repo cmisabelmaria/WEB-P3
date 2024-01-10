@@ -32,6 +32,26 @@ body {
     background-color: var(--colorblanco);
 }
 
+.FOOTER{
+    height: 100vh;
+}
+
+
+.fa-bars {
+    display: none!important;
+    opacity: 0;
+}
+
+.menu > .col > .btn:hover {
+    font-style: italic;
+    transform: scale(1.1);
+}
+
+#close2 > i.fa-solid.fa-xmark {
+    display: none;
+    color: var(--colornegro);
+}
+
 img {
     width: 100%;
 }
@@ -109,8 +129,8 @@ p {
 
 
 .btn-warning {
-    --bs-btn-color: var(--colorblanco); /*color letras sin clickar*/
-    --bs-btn-bg: var(--colornaranja); /*color fondo sin clickar*/
+    --bs-btn-color: var(--colorblanco); 
+    --bs-btn-bg: var(--colornaranja); 
     --bs-btn-border-color: var(--colornaranja);
     --bs-btn-hover-color: var(--colornaranja);
     --bs-btn-hover-bg: #{shade-color(var(--colornaranja), 10%)};
@@ -121,7 +141,7 @@ p {
     --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
   }
 
-  /*giro*/
+
   .estrelladiv {
     opacity: 1;
     display: flex;
@@ -144,17 +164,81 @@ p {
     transform: rotateY(180deg);
   }
 
-  
-@media screen and (max-width: 1000px) {
     :root {
     --tamanoTitulo1: 7.8rem;}
+    
+    
+@media screen and (max-width: 1000px) {
+    :root {
+    --tamanoTitulo1: 7.8rem;
     }
     
+    #close2 > i.fa-solid.fa-xmark,
+    .pantallainicio > i.fa-bars {
+        display: flex;
+    }
+
+    .fa-bars {
+        display: flex!important;
+        opacity: 1!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0.5em;
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .menu {
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .menu > .col >.btn {
+        height: 3rem;
+    }
+
+    #menu {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        transition: 0.5s;
+        height: 100vh;
+        display: flex!important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--colorblanco);
+    }
+
+
+    #close2 {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        font-size: 2em;
+        color: white;
+    }
+
+    #close2 > i {
+        color: white;
+    }
+
+    #close2:hover > i {
+        color: black;
+        cursor: pointer;
+    }
+}
+
+
     @media screen and (max-width: 667px) {
         .h1{
             font-size: 5rem!important;
         }
     }
+
+    
 
   @media only screen and (max-width: 576px) { 
     .estrelladiv {

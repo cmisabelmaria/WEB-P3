@@ -135,7 +135,6 @@ p {
     }
 }
 
-
 .btn-warning {
     --bs-btn-color: var(--colorblanco); 
     --bs-btn-bg: var(--colornaranja); 
@@ -147,8 +146,7 @@ p {
     --bs-btn-active-color: var(--colornaranja);
     --bs-btn-active-bg: #{shade-color(var(--colornaranja), 20%)};
     --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
-  }
-
+}
 
   .estrelladiv {
     opacity: 1;
@@ -243,7 +241,6 @@ p {
     }
 }
 
-
     @media screen and (max-width: 667px) {
         .second{
             font-size: 4rem!important;
@@ -253,8 +250,6 @@ p {
             font-size: 3rem;
         }
     }
-
-    
 
   @media only screen and (max-width: 576px) { 
     .estrelladiv {

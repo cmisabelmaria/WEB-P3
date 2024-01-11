@@ -198,9 +198,6 @@ h6{
     white-space: nowrap;
 }
 
-
-
-
 @media (max-width: 1000px) {
     h5{
         font-size: 11em;
@@ -272,10 +269,6 @@ h6{
         cursor: pointer;
     }
 }
-
-
-
-
 
 @media (max-width: 960px) {
 

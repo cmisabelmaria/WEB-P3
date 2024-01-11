@@ -28,8 +28,20 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+.ig, .tiktok, .tw{
+    width: 30%;
+}
+
 body {
     background-color: var(--colorblanco);
+}
+
+.FOOTER{
+    height: 100vh;
 }
 
 img {
@@ -187,14 +199,12 @@ body > section.about > div.about-title {
     }
 }
 
-/* intento de scroll div horizontal*/
 
 .horizontal-scrollable {
     overflow-x: auto;
     white-space: nowrap;
 }
 
-/*poner diferentes tipografías*/
 
 .tipo1 {
     font-family: "CliniquesHelveticaNeue";
@@ -206,6 +216,8 @@ body > section.about > div.about-title {
 
 
 @media screen and (max-width: 1000px) {
+    :root {
+    --tamanoTitulo1: 7.8rem;}
     
     #close2 > i.fa-solid.fa-xmark,
     .pantallainicio > i.fa-bars {
@@ -264,3 +276,4 @@ body > section.about > div.about-title {
         cursor: pointer;
     }
 }
+

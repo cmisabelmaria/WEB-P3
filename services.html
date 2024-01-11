@@ -11,55 +11,50 @@
     <script src="https://kit.fontawesome.com/c3fd22b8e3.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="cssmain\img.main\estrella.ico" type="cssmain\img.main\estrella.ico">
     <script src="https://kit.fontawesome.com/c3fd22b8e3.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <title>AURA CLUB</title>
 </head>
-
 <header class="w-100 position-fixed align-top" style="z-index: 20;">
-            <i class="fas fa-bars" onclick="openMenu()"></i>
-            <nav id="menu"  class="menu w-100 d-flex position-fixed justify-content-center align-items-center pt-4"  data-aos="fade-down">
-                <span id="close2" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></span>
-                <!--<ul>
-                    <li><a href="#aboutus" onclick="closeMenu()">About us</a></li>
-                    <li><a href="#exhibitions" onclick="closeMenu()">Exhibitions</a></li>
-                    <li><a href="#tickets" onclick="closeMenu()">Tickets</a></li>
-                    <li><a href="#findus" onclick="closeMenu()">Find us</a></li>
-                    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
-                </ul>-->
-              </div>
-              <div class="menu row d-flex align-items-center">
-              <div class="col opacity-75 d-flex justify-content-center">
-                  <a href="https://https://www.instagram.com/" target="blank"></a>
-                  <button type="button" class="rounded-pill btn btn-dark" onclick="closeMenu()"><p class="titulo text-light"> HOME</p></button>
-                </div>
-                <div class="col opacity-75 d-flex justify-content-center">
-                  <a href="https://https://www.instagram.com/" target="blank"></a>
-                  <button type="button" class="rounded-pill btn btn-dark" onclick="closeMenu()"><p class=" titulo text-light"> SERVICES</p></button>
-                </div>
-      
-                <div class="col opacity-75 d-flex justify-content-center">
-                  <a href="https://https://www.instagram.com/" target="blank"></a>
-                  <button type="button" class="rounded-pill btn btn-dark" onclick="closeMenu()"><p class=" titulo text-light">TICKETS</p></button>
-                </div>
-      
-                <div class="col opacity-75 d-flex justify-content-center">
-                  <a href="https://https://www.instagram.com/" target="blank"></a>
-                  <button type="button" class="rounded-pill btn btn-dark" onclick="closeMenu()"><p class=" titulo text-light"> BLOG</p></button>
-                </div>
+  <i class="fas fa-bars" onclick="openMenu()"></i>
+  <nav id="menu" class="menu w-100 d-flex position-fixed justify-content-center align-items-center pt-4" data-aos="fade-down">
+      <span id="close2" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></span>
+      <div class="menu row d-flex align-items-center">
+          <div class="col opacity-75 d-flex justify-content-center">
+              <button type="button" class="rounded-pill btn btn-dark">
+                  <a href="index.html" target="_blank" class="titulo text-light">INICIO</a>
+              </button>
+          </div>
 
-                <div class="col opacity-75 d-flex justify-content-center">
-                  <a href="https://https://www.instagram.com/" target="blank"></a>
-                  <button type="button" class="rounded-pill btn btn-dark" onclick="closeMenu()"><p class=" titulo text-light"> CART</p></button>
-                </div>
-           </div></div>
-            </nav>
+          <div class="col opacity-75 d-flex justify-content-center">
+              <button type="button" class="rounded-pill btn btn-dark">
+                  <a href="services.html" target="_blank" class="titulo text-light">SERVICIOS</a>
+              </button>
+          </div>
+
+          <div class="col opacity-75 d-flex justify-content-center">
+              <button type="button" class="rounded-pill btn btn-dark">
+                  <a href="tickets.html" target="_blank" class="titulo text-light">TICKETS</a>
+              </button>
+          </div>
+
+          <div class="col opacity-75 d-flex justify-content-center">
+              <button type="button" class="rounded-pill btn btn-dark">
+                  <a href="blog.html" target="_blank" class="titulo text-light">BLOG</a>
+              </button>
+          </div>
+
+          <div class="col opacity-75 d-flex justify-content-center">
+              <button type="button" class="rounded-pill btn btn-dark">
+                  <a href="disabled" target="_blank" class="titulo text-light">CARRITO</a>
+              </button>
+          </div>
+      </div>
+  </nav>
 </header>
-
-
-
 
 <body>
     <section>
@@ -148,7 +143,7 @@
                   <div class="row">
                       <div class="col-lg-12 d-flex align-items-center flex-column" data-aos="zoom-in">
                           <h4 class="text-light w-50 text-center" style="font-style: italic;">NO TE PIERDAS NUESTRAS SALAS PRIVADAS</h4>
-                          <button type="button" class="m-2 btn btn-outline-light rounded-pill">RESERVAR</button>
+                          <button type="button" class="m-2 btn btn-outline-light rounded-pill"><a href="tickets.html"  class="text-light">RESERVAR</a></button>
                       </div>
                   </div>
               </div>
@@ -158,9 +153,9 @@
 
  
   <section class="d-flex flex-column justify-content-center" style="background-color: var(--colorazul);">
-    <div class="pt-4 d-flex justify-content-center"><h3 class="text-center text-light w-75" data-aos="zoom-out-up">Próximos Eventos <br> en Aura club</h3></div>
+    <div class="pt-4 d-flex justify-content-center"><h3 class="text-center text-light w-75">Próximos Eventos <br> en Aura club</h3></div>
     <p class="text-light d-flex justify-content-center" style="font-size: 1rem;">Desliza los eventos para ver más</p>
-    <div class="horizontal-scrollable" data-aos="zoom-out-up" style="padding: 5% 2%;">
+    <div class="horizontal-scrollable" style="padding: 5% 2%;">
       <div class="row flex-nowrap">
         <div class="col-lg-4 flex-column justify-content-center align-items-center">
           <div class="d-flex justify-content-center"><img src="css/img/karaokeStar.png" alt="fotoresaca"></div>
@@ -215,7 +210,7 @@
           <div class="sticky-top" style="z-index: 10;">
               <div class="card-body d-flex flex-column justify-content-between align-items-center" style="background-color: var(--colornaranja); height: 100vh; padding: 5rem 1rem;">
                 <h3 class="text-light text-center"  style="font-family: AppleGaramond;">Cómo Disfrutar <br> en Aura Club</h3>
-                <button type="button"  class="m-2 btn btn-outline-light rounded-pill">RESERVAR</button>
+                <button type="button" class="m-2 btn btn-outline-light rounded-pill"><a href="tickets.html" class="text-light">RESERVAR</a></button>
                 <h4 class="text-light text-center"  style="font-family: AppleGaramond;">Lunes a Domingo<br>Horario según el evento</h4>
             </div>
           </div>
@@ -223,7 +218,7 @@
 
 
         <div class="col-lg-6 col-md-12">
-        <h1 class=" lh-1"style="color: var(--colornaranja);font-weight: 700;">Eventos <span style="opacity: 0.50;">privados_</span></h1>
+        <h2 class=" lh-1 eventosprivados"style="color: var(--colornaranja);font-weight: 700;">Eventos <span style="opacity: 0.50;">privados_</span></h2>
           <div style="padding-top: 5%;">
             <div class="row" style="height: auto;">
               <div class="col-lg-6 col-sm-6 d-flex flex-column">
@@ -389,4 +384,86 @@
     </script>
   
 </body>
-<footer></footer>
+
+
+<footer>
+ 
+  <div class="FOOTER m-0 row p-0 d-flex justify-content-between" style="background-color: #1f1f1f;">
+    
+    <div class="circulito col-lg-6 d-flex  border flex-column text-center justify-content-center align-items-center"style="color: #f1f1f1;">
+     
+        <h4 class="m-4 text-light">¿Quieres un poquito más?</h4>
+        <button type="button" class="bebidasbutton btn btn-lg border border-white rounded-pill" style="color: white;"><a href="index.html" target="_blank" class="text-light">Aura Club Blog</a></button>
+            
+    </div>
+  
+    <div class="footerdrch col-lg-6 p-4">
+      <div class="col" style="color:#f1f1f1">
+  
+        <div class="col pt-4 d-flex justify-content-between   " style="color: #f1f1f1;" >
+          <p class="text-light text-start p-2">CONTACT_</p>
+          <button type="button" class="bebidasbutton btn btn-lg border border-white rounded-pill" style="color: #f1f1f1;" data-bs-toggle="modal" data-bs-target="#exampleModalx">
+            Email
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalx" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <p class="modal-title fs-5" id="exampleModalLabel" style="color: #1f1f1f;">EMAIL :)</p>
+                  <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label" style="color: #1f1f1f;" >Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">No te preocupes, no compartiremos tu email</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label" style="color: #1f1f1f;">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+            
+                    <button type="submit" class="btn btn-primary rounded-pill">Submit</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>      </div>
+  
+        <hr class="" style="height: 6px; border: none; background-color: white;">
+  
+        <div class="RRSS col d-flex justify-content-between  " style="color: #f1f1f1;" >
+          <p class=" text-start p-2 w-100 text-light">RRSS_</p>
+          
+          <div class="container p-0 d-flex align-items-center justify-content-end">
+            <div class="row">
+              <div class="col d-flex justify-content-center"><a href="https://www.instagram.com/accounts/login/">
+                <img class="ig" src="cssmain/img.main/IG.png" alt="instagram"></a>
+              </div>
+              <div class="col d-flex justify-content-center"><a href="https://www.tiktok.com/login">
+                <img class="tiktok" src="cssmain/img.main/TIKTOK.png" alt="tiktok"></a>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <a href="https://twitter.com/i/flow/login">
+                <img class="tw" src="cssmain/img.main/TWITTER.png" alt="twitter"></a>
+              </div>
+            </div>
+          </div>
+        </div> 
+  
+        <hr class="" style="height: 6px; border: none; background-color: white;">
+  
+        <p class="text-light">Av, América 13, 28002</p>
+        <hr class="" style="height: 6px; border: none; background-color: white;">
+    </div>
+  </div>
+    </div>
+  
+  </footer>
+  

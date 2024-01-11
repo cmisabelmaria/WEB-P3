@@ -28,6 +28,14 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+.ig, .tiktok, .tw{
+    width: 30%;
+}
+
 body {
     background-color: var(--colorblanco);
 }
@@ -229,12 +237,20 @@ p {
         color: black;
         cursor: pointer;
     }
+
+    .first {
+        font-size: 5rem;
+    }
 }
 
 
     @media screen and (max-width: 667px) {
-        .h1{
-            font-size: 5rem!important;
+        .second{
+            font-size: 4rem!important;
+        }
+
+        .cositas {
+            font-size: 3rem;
         }
     }
 

@@ -28,6 +28,14 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+.ig, .tiktok, .tw{
+    width: 30%;
+}
+
 body {
     background-color: var(--colorblanco);
 }
